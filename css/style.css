@@ -19,13 +19,13 @@ body{
 }
 .contenido{
     width: 1300px;
-    height: 600px;
+    height: 630px;
     background-color: rgb(212, 212, 212);
     display: flex;
 }
 .izquierda{
     width: 280px;
-    height: 600px;
+    height: 630px;
     background-color: white;
    
 }
@@ -38,10 +38,10 @@ body{
     width: 400px;
     height: 600px;
     background-color: rgb(212, 212, 212);
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .collection{
-    margin-top: -1px;
+    margin-top: 0;
 }
 .color{
     background-color:red;
@@ -58,11 +58,24 @@ body{
     width: 50px;
 }
 td{
-    height: 30px;
+    height: 25px
+}
+tr{
+    height: 40px;
+    margin-top: 0;
 }
 #tablita{
+    width: 700px;
     font-size: 13px;
     height: 180px;
     background-color: white;
-    margin-left: 2px;
+    margin-left: 5px;
+}
+.container{
+    height: 605px;
+    width: 320px;
+    background-color: whitesmoke;
+    border: none;
+    border: 1px solid rgb(175, 175, 175);
+
 }

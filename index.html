@@ -14,30 +14,30 @@
 <body>
     <header class="cabecera">
         <div class="row">
-            <div class="col s3" style="color: white; font-size: 25px;">Sistema Ventas <span class="material-icons" style="padding-left: 40px;">menu</span></div>
+            <div class="col s3" style="color: white; font-size: 25px;">Sistema Ventas <a href="#"><span class="material-icons" style="padding-left: 40px;">menu</span></a></div>
             <div class="col s7"></div>
             <div class="col s2" style="color: white; font-size: 15px; margin-top: 10px;"><span class="material-icons">person</span>Juan Vázques Ventura</div>
         </div>
     </header>
     <nav class="cabeza">
         <div class="row">
-            <div class="col s2" style="color: black;height: 50px;width: 261px;">icono</div>
-            <div class="col s10" style="background-color:rgb(235, 233, 233);height: 50px;width: 1039px;color: gray;">
+            <div class="col s2" style="color: black;height: 50px;width: 245px;"><span class="material-icons" style="color: rgb(8, 8, 185);">search</span></div>
+            <div class="col s10" style="background-color:rgb(235, 233, 233);height: 50px;width: 1055px;color: gray;">
             <a href="#" style="color: teal;"></span><span class="material-icons" >home</span>Inicio</a> /Menu Principal</div>
         </div>
     </nav>
     <main class="contenido">
         <aside class="izquierda">
             <div class="collection">
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">home</span>  Almacen</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">shopping_cart</span>Compras</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">inventory</span>Tipo Documentos</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">shopping_cart</span>Ventas</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">inventory</span>Inventario</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">groups</span>Usuarios</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Reporte de Compras</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Reportes de Ventas</a>
-                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Gráficos Estadísticos</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black; font-size: 13px;">></span><span class="material-icons">home</span>  Almacen</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">shopping_cart</span>Compras</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">inventory</span>Tipo Documentos</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">shopping_cart</span>Ventas</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">inventory</span>Inventario</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">groups</span>Usuarios</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">stacked_bar_chart</span>Reporte de Compras</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">stacked_bar_chart</span>Reportes de Ventas</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;font-size: 13px;">></span><span class="material-icons">stacked_bar_chart</span>Gráficos Estadísticos</a>
               </div>
         </aside>
         <section class="centro">
@@ -58,7 +58,7 @@
                       <th>IMPORTE</th>
                   </tr>
                 </thead>        
-                <tbody class="cuerpotable">
+                <tbody class="cuerpotable" >
                   <tr>
                     <td style="text-align: center;">1</td>
                     <td><input type="text" id="cajita"></td>
@@ -88,10 +88,10 @@
 
         </section>
         <aside class="derecha">
-            <div class="container" style="height: 400px; width: 340px;">
+            <div class="container">
                 <div class="row">
                     <div class="col s12 color">
-                         <h3>S/. 12.50</h3>          
+                         <h3>S/. 21.60</h3>          
                     </div>            
                 </div> 
                 <div class="row">  
@@ -102,7 +102,7 @@
                           <option value="2">Option 2</option>
                           <option value="3">Option 3</option>
                         </select>
-                        <label>DOCUMENTO</label>
+                        <label style="color: black; font-size: 15px;"> <strong>DOCUMENTO</strong></label>
                       </div>
                       <div class="input-field col s6">
                         <select>
@@ -111,30 +111,43 @@
                           <option value="2">Option 2</option>
                           <option value="3">Option 3</option>
                         </select>
-                        <label>TIPO DE PAGO</label>
+                        <label style="color: black; font-size: 15px;"> <strong>TIPO DE PAGO</strong> </label>
                       </div>              
                 </div> 
                 <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                        <label for="first_name">SERIE</label>
+                    <div class="input-field col s6" id="sv">
+                        <input placeholder="001" id="first_name" type="text" class="validate" style="border: none; border: 1px solid rgb(177, 177, 177); height: 40px; margin-top: 8px;">
+                        <label for="first_name" style="color: black; font-size: 20px;"> <strong>SERIE</strong> </label>
                       </div>
-                      <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">N° DE VENTA</label>
+                      <div class="input-field col s6" id="sv">
+                        <input id="last_name" placeholder="000001" type="text" class="validate" style="border: none; border: 1px solid rgb(177, 177, 177); height: 40px; margin-top: 8px;" >
+                        <label for="last_name" style="color: black; font-size: 20px;"> <strong>N° DE VENTA</strong> </label>
                       </div>
                     </div>       
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input id="password" type="date" class="validate">
-                        <label for="password">Fecha de Compra</label>
+                    <div class="input-field col s12" style="margin-top: 0;">
+                        <input id="password" type="date" class="validate" style="border: none; border: 1px solid rgb(177, 177, 177); height: 40px; margin-top: 8px;">
+                        <label for="password" style="color: black; font-size: 20px;"><strong>Fecha de Compra</strong> </label>
                       </div>
                 </div>
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input id="proveedor" type="text" class="validate">
-                        <label for="proveedor">PROVEEDOR</label>
+                    <div class="input-field col s12" style="margin-top: 0;">
+                        <input id="proveedor" placeholder="RUC o Razón Social" type="text" class="validate" style="border: none; border: 1px solid rgb(177, 177, 177); height: 40px; margin-top: 8px;" >
+                        <label for="proveedor" style="color: black; font-size: 20px;" ><strong>PROVEEDOR</strong> </label>
                       </div>
+                    <div class="row">
+                        <div class="text-field col s8">Sub Total</div>
+                        <div class="text-field col s4">S/.18.31</div>
+                    </div>
+                    <div class="row">
+                        <div class="text-field col s8">I.G.V(18%)</div>
+                        <div class="text-field col s4">S/.3.29</div>
+                    </div>
+                    <div class="row">
+                        <div class="text-field col s8">TOTAL</div>
+                        <div class="text-field col s4">S/.18.31</div>
+                    </div>
+                    
                 </div>
             </div>
             
