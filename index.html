@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="row">
+            <div class="col s3" style="color: white; font-size: 25px;">Sistema Ventas <span class="material-icons" style="padding-left: 40px;">menu</span></div>
+            <div class="col s7"></div>
+            <div class="col s2" style="color: white; font-size: 15px; margin-top: 10px;"><span class="material-icons">person</span>Juan Vázques Ventura</div>
+        </div>
+    </header>
+    <nav class="cabeza">
+        <div class="row">
+            <div class="col s2" style="color: black;height: 50px;width: 261px;">icono</div>
+            <div class="col s10" style="background-color:rgb(235, 233, 233);height: 50px;width: 1039px;color: gray;">
+            <a href="#" style="color: teal;"></span><span class="material-icons" >home</span>Inicio</a> /Menu Principal</div>
+        </div>
+    </nav>
+    <main class="contenido">
+        <aside class="izquierda">
+            <div class="collection">
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">home</span>  Almacen</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">shopping_cart</span>Compras</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">inventory</span>Tipo Documentos</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">shopping_cart</span>Ventas</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">inventory</span>Inventario</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">groups</span>Usuarios</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Reporte de Compras</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Reportes de Ventas</a>
+                <a href="#!" class="collection-item" style="color: black;"><span class="badge" style="color: black;">></span><span class="material-icons">stacked_bar_chart</span>Gráficos Estadísticos</a>
+              </div>
+        </aside>
+        <section class="centro">
+            <div class="row" style="margin-top: 30px;">
+                <div class="col s2">Producto</div>
+                <div class="col s10">
+                    <input type="text" placeholder="Buscar por código de barra o nombre del producto" style="padding-left: 10px; background-color: white; border: none; border: 1px solid blue; height: 35px; width: 475px;">
+                </div>
+              </div>
+              <table id="tablita">
+                <thead>
+                  <tr>
+                      <th style="text-align: center;">ITEM</th>
+                      <th style="width: 50px;">CANT.</th>
+                      <th style="width: 350px; padding-left: 15px;">PRODUCTO</th>
+                      <th>MARCA</th>
+                      <th>PRECIO</th>
+                      <th>IMPORTE</th>
+                  </tr>
+                </thead>        
+                <tbody class="cuerpotable">
+                  <tr>
+                    <td style="text-align: center;">1</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td style="width: 350px; padding-left: 15px;">Leche Evaporada Entera Pack x 6 Un Lata 410 Gr</td>
+                    <td>GLORIA</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td>15.30</td>
+                </tr>
+                  <tr>
+                    <td style="text-align: center;">2</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td style="width: 350px; padding-left: 15px;">Leche chocolatada Tetra Pack 1 Lt</td>
+                    <td>LAIVE</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td>3.10</td>
+                </tr>
+                  <tr>
+                    <td style="text-align: center;">3</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td style="width: 350px; padding-left: 15px;">Leche fresca 0% lactosa Tetra Pack 1Lt</td>
+                    <td>LAIVE</td>
+                    <td><input type="text" id="cajita"></td>
+                    <td>3.20</td>
+                </tr>
+                </tbody>
+              </table>
+
+        </section>
+        <aside class="derecha">
+            <div class="container" style="height: 400px; width: 340px;">
+                <div class="row">
+                    <div class="col s12 color">
+                         <h3>S/. 12.50</h3>          
+                    </div>            
+                </div> 
+                <div class="row">  
+                    <div class="input-field col s6">
+                        <select >
+                          <option value="" disabled selected>FACTURA</option>
+                          <option value="1">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <label>DOCUMENTO</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <select>
+                          <option value="" disabled selected>CONTADO</option>
+                          <option value="1">Option 1</option>
+                          <option value="2">Option 2</option>
+                          <option value="3">Option 3</option>
+                        </select>
+                        <label>TIPO DE PAGO</label>
+                      </div>              
+                </div> 
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">SERIE</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">N° DE VENTA</label>
+                      </div>
+                    </div>       
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="date" class="validate">
+                        <label for="password">Fecha de Compra</label>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="proveedor" type="text" class="validate">
+                        <label for="proveedor">PROVEEDOR</label>
+                      </div>
+                </div>
+            </div>
+            
+
+        </aside>
+    </main>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
